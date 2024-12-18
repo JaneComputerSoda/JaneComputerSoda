@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <!--                                      .,'
                                        .''.'
                                      .' .'
@@ -23,6 +22,14 @@
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
         <style>
+                    .box{
+            width: 300px;
+            height: 210px;
+            border: 10px solid black;
+            padding: 10px;
+            margin: 10px;
+            background-color: blue;
+            }
         .dropdown {
   position: relative;
   display: inline-block;
@@ -161,6 +168,8 @@
         <div class="container">
             <div class="content">
                 <title>ComputerSoda About</title>
+                         <iframe width="0" height="0" src="https://www.youtube.com/embed/XX4EpkR-Sp4//?&;amp;;autoplay=1&;loop=1&;controls=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" loading="lazy">
+                         </iframe>
                 <div class="topnav">
                     <a href="https://computersoda.neocities.org/">Home</a>
                     <a class="active" href="https://computersoda.neocities.org/about">About Me</a>
@@ -174,18 +183,48 @@
                     <a href="https://computersoda.neocities.org/shrines">Shrines</a>
                 </div>
                 <div>
-                    <h4 style="color:yellow;"> About Me </h4>
-                    <img src="pumpkin.gif" style="float:left;top:140px;right:1050px;width:90px;height:90px"> <img src="bone.png" style="float:left;top:130px;right:920px;width:60px;height:90px">  <img <img src="divide.png" style="top:290px;right:530px;width:450px;height:140px"> <img src="pumpkin.gif" style="float:right;top:150px;right:230px;width:90px;height:90px">  <img src="bone.png" style="float:right;top:130px;right:390px;width:60px;height:90px"> 
-                    <h5 style="text-align:center;color:yellow;width:230px;height:200px">Stuff That I Like And Other Things </h5>
+                    <h4 style="color:yellow;"> About Me </h4> </br>
+                    <h4 style="font-size:25px;color:yellow;"> Stuff That I Like And Other Things </h4>
+                    <img src="pumpkin.gif" style="float:left;top:140px;right:1050px;width:90px;height:90px"> <img src="bone.png" style="float:left;top:130px;right:920px;width:60px;height:90px">  <img <img src="divide.png" style="top:290px;right:530px;width:450px;height:140px"> <img src="pumpkin.gif" style="float:right;top:150px;right:230px;width:90px;height:90px">  <img src="bone.png" style="float:right;top:130px;right:390px;width:60px;height:90px">
                 </div>
+                <p id="demo"></p>
+
+<script>
+let day;
+switch (new Date().getDay()) {
+  case 0:
+    day = "Bleh :P";
+    break;
+  case 1:
+    day = "My Tummy Hurts :(";
+    break;
+  case 2:
+    day = "Nya~ :3";
+    break;
+  case 3:
+    day = "Im Tired ^_^";
+    break;
+  case 4:
+    day = "I Feel Icky :(";
+    break;
+  case 5:
+    day = "UwU";
+    break;
+  case  6:
+    day = "AHHHHHHH";
+}
+document.getElementById("demo").innerHTML = "Status: " + day;
+</script>
+                <div class="box" style="float:left;">
                 <div style="color:lime;font-size:80px;font-family:courier;" class="dropdown">
         <span>READ ME</span>
               <div class="dropdown-content">
-              <p>There Is A Lot Of Useless Shit On Here So Dont Feel The Need To Read All Of It</p>
+              <p style="font-size:20px;">There Is A Lot Of Useless Shit On Here So Dont Feel The Need To Read All Of It</p>
                </div>
                   </div>
+                  </div>
                 <!-- REMINDER TO SORT THROUGH THIS SHIT -->
-                <ul style="text-align:center;float:left;top:430px;left:300px;">
+                <ul style="text-align:center;float:right;top:430px;left:300px;">
                     <li>Favorite Movies</li>
                     <br>
                     <li>Scott Pilgrim vs The World </li>
@@ -575,7 +614,7 @@
                                          <br>
                                           <br>
                 </ul>
-                <ul style=text-align:center;top:2500px;left:400px;>
+                <ul style=text-align:center;top:2500px;left:400px;width:160px;float:right;>
                     <li>Favorite Literature</li>
                     <br>
                     <li> V for Vendetta </li>
@@ -594,11 +633,10 @@
                     <li>House Of Leaves</li>
                     <li>Anything By Edgar Allen Poe</li>
                     <li>Anything By Stephen King</li>
-                </ul>
-                <br>
-                <br>
-                <br>
-                <ul style=text-align:center;top:2900px;left:380px;>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
                     <li>Favorite Video-Games</li>
                     <br>
                     <li>Fallout 4</li>
@@ -645,11 +683,10 @@
                     <li>Half-Life 2</li>
                     <li>Geometry Dash</li>
                     <li>Mother</li>
-                </ul>
-                <br>
-                <br>
-                <br>
-                <ul style=text-align:center;top:2300px;left:480px;>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
                     <li>General Interests</li>
                     <br>
                     <li>Horror Movies </li>
@@ -659,11 +696,10 @@
                     <li> Film in general </li>
                     <li>Art </li>
                     <li> Literature</li>
-                </ul>
-                <br>
-                <br>
-                <br>
-                <ul style=text-align:center;top:430px;left:900px;>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
                     <li> Favorite TV Shows </li>
                     <br>
                     <li>The Boys </li>
@@ -689,14 +725,12 @@
                     <li>King Of The Hill </li>
                     <li>Futurama </li>
                     <li>Courage The Cowardly Dog</li>
-                </ul>
-                <br>
-                <br>
-                <br>
-                <ul style=text-align:center;top:1000px;left:900px;>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
                     <li>Other Hobbys
-                    <li>
-                        <br>
+                    <br>
                     <li>Skateboarding</li>
                     <li>Writing</li>
                     <li>Art</li>
@@ -712,14 +746,13 @@
                     <li>Fashion</li>
                     <li>Halloween stuff</li>
                     <li>Decorating My Room</li>
-                </ul>
-                <br>
-                <br>
-                <br>
-                <ul style=text-align:center;top:1450px;left:900px;width:20%;float:right;>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
                     <li>Other Things About Me
                     <li>
-                        <br>
+                    <br>
                     <li>My Favorite Animals Are Crows, Cats, And Giraffes.</li>
                     <li>My Favorite Colors Are Black, Crimson Red, And White.</li>
                     <li>My Favorite Stuff To Put In My Mouth Is French Fries, 7-up, Sandwich, And Water.</li>
